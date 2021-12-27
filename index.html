@@ -8,13 +8,19 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"/>
-      <meta name="keywords" content="Juegos, Gamer, Gamming, Juegos Computadora, Catálogo de juegos, Comprar Juegos">
-      <meta name="description" content= "Nerve Games.com - Tus juegos favoritos para PC, Steam, Origin, Battle.net, Uplay y juegos Indie en un solo lugar">
+      crossorigin="anonymous"
+    />
+    <meta
+      name="keywords"
+      content="Juegos, Gamer, Gamming, Juegos Computadora, Catálogo de juegos, Comprar Juegos"
+    />
+    <meta
+      name="description"
+      content="Nerve Games.com - Tus juegos favoritos para PC, Steam, Origin, Battle.net, Uplay y juegos Indie en un solo lugar"
+    />
     <link rel="stylesheet" href="./styles/estilos.css" />
     <title>Nerve Games</title>
-    <link rel="icon" href="./media/LOGO.png">
-    
+    <link rel="icon" href="./media/LOGO.png" />
   </head>
   <body>
     <header>
@@ -62,7 +68,7 @@
     </header>
 
     <!-- CAROUSEL -->
-    <div class="container">
+    <div class="container-flex">
       <div
         id="carouselExampleCaptions"
         class="carousel slide"
@@ -106,7 +112,8 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>Man Of Medan</h5>
               <p>
-                Cinco amigos se embarcan en una excusión para bucear. Conforme avanza el día, su viaje se tornará más siniestro.
+                Cinco amigos se embarcan en una excusión para bucear. Conforme
+                avanza el día, su viaje se tornará más siniestro.
               </p>
             </div>
           </div>
@@ -119,7 +126,14 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>God of War: Ragnarok</h5>
               <p>
-                Secuela del enorme éxito de PS4 que consiguió alzarse con el GOTY 2018. Kratos y Atreus regresarán para desatar el Ragnarok en la consola de nueva generación de Sony. Por el momento, solo se sabe que tiene prevista su llegada en algún momento de 2021, aunque en las runas de su logo ya se han podido conocer secretos que apuntan hacia dónde se dirige esta nueva entrega, que promete ofrece una historia cargada de acción y donde los dioses desatarán toda su furia para producir el fin del mundo.
+                Secuela del enorme éxito de PS4 que consiguió alzarse con el
+                GOTY 2018. Kratos y Atreus regresarán para desatar el Ragnarok
+                en la consola de nueva generación de Sony. Por el momento, solo
+                se sabe que tiene prevista su llegada en algún momento de 2021,
+                aunque en las runas de su logo ya se han podido conocer secretos
+                que apuntan hacia dónde se dirige esta nueva entrega, que
+                promete ofrece una historia cargada de acción y donde los dioses
+                desatarán toda su furia para producir el fin del mundo.
               </p>
             </div>
           </div>
@@ -132,7 +146,10 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>Gran Turismo 7</h5>
               <p>
-                El próximo videojuego de carreras y simulación desarrollado por Polyphony Digital y distribuido por Sony Interactive Entertainment. El juego será la séptima entrega de la línea principal de la serie Gran Turismo.
+                El próximo videojuego de carreras y simulación desarrollado por
+                Polyphony Digital y distribuido por Sony Interactive
+                Entertainment. El juego será la séptima entrega de la línea
+                principal de la serie Gran Turismo.
               </p>
             </div>
           </div>
@@ -145,7 +162,13 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>Resident Evil Village</h5>
               <p>
-                Sigue a Ethan Winters, quien, después de un fatídico encuentro con Chris Redfield, se encuentra en un pueblo lleno de criaturas mutantes en un esfuerzo por encontrar a su hija secuestrada. Si bien Village mantiene los elementos fundamentales de terror de supervivencia de la serie, el videojuego adopta un estilo de videojuego más orientado a la acción en comparación con su predecesor.
+                Sigue a Ethan Winters, quien, después de un fatídico encuentro
+                con Chris Redfield, se encuentra en un pueblo lleno de criaturas
+                mutantes en un esfuerzo por encontrar a su hija secuestrada. Si
+                bien Village mantiene los elementos fundamentales de terror de
+                supervivencia de la serie, el videojuego adopta un estilo de
+                videojuego más orientado a la acción en comparación con su
+                predecesor.
               </p>
             </div>
           </div>
@@ -171,12 +194,35 @@
       </div>
     </div>
 
-    <!-- CARDS -->
+    <!-- CARDS  -->
 
     <div class="container">
-      <h1 class="titulo__secundario">DESTACADOS DEL MES</h1>
+      
+      <div class="row jc-center margin-top-button">
+        <h1 class="titulo__secundario mb-50">DESTACADOS DEL MES</h1>
+        <article class="col-sm-6 col-md-3 producto">
+          <div class="text-center detalle_producto">
+            <div class="img-container img-residentEvil"></div>
+            <p class="precio">$8000</p>
+          </div>
+        </article>
 
-      <div class="card-group">
+        <article class="col-sm-6 col-md-3 producto">
+          <div class="text-center detalle_producto">
+            <div class="img-container img-hitman"></div>
+            <p class="precio">$4000</p>
+          </div>
+        </article>
+
+        <article class="col-sm-6 col-md-3 producto">
+          <div class="text-center detalle_producto">
+            <div class="img-container img-lastOfUs"></div>
+            <p class="precio">$5000</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- <div class="card-group">
         <div class="card">
           <img
             src="./media/CARDS/SQ_NSwitch_FIFA22NintendoSwitchLegacyEdition_image500w.jpg"
@@ -185,16 +231,7 @@
           />
           <div class="card-body">
             <h5 class="card-title">FIFA22</h5>
-            <p class="card-text">
-              FIFA 22 es una nueva entrega de la saga de deportes y fútbol a
-              cargo de EA Canada y Electronic Arts para PC, PlayStation 4, Xbox
-              One, PlayStation 5, Xbox Series, Switch y Stadia. Con Powered by
-              Football, FIFA 22 acerca aún más el juego a la realidad gracias a
-              mejoras significativas en la jugabilidad y una nueva temporada de
-              novedades en todos los modos: Carrera, Volta, Ultimate Team,
-              Clubes Pro y más, incluyendo más de 17.000 jugadores, más de 700
-              equipos, más de 90 estadios y más de 30 ligas de todo el mundo.
-            </p>
+
             <p class="card-text"><small class="text-muted"></small></p>
           </div>
         </div>
@@ -235,7 +272,8 @@
             <p class="card-text"><small class="text-muted"></small></p>
           </div>
         </div>
-      </div>
+      </div> -->
+      
     </div>
 
     <!-- FOOTER -->
@@ -244,7 +282,12 @@
         <div class="box">
           <figure>
             <a href="#">
-              <img src="./media/LOGO.png" class="img-fluid" width="50px" alt="Logo de Nerve Games" />
+              <img
+                src="./media/LOGO.png"
+                class="img-fluid"
+                width="50px"
+                alt="Logo de Nerve Games"
+              />
             </a>
           </figure>
         </div>
