@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Zen+Antique+Soft&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Zen+Antique+Soft&display=swap");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
 
 .bg-navbar {
   background-color: #3a298a; }
@@ -10,84 +12,166 @@
   background-color: #363f96; }
 
 .titulo__secundario {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: large;
-  font-weight: bold; }
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em; }
 
-.header {
-  color: #36A0FF;
-  font-size: 27px;
-  padding: 10px; }
+.margin-top-button {
+  margin: 3em 0; }
 
 .img-fluid {
   width: 70px; }
 
 .bigicon {
   font-size: 35px;
-  color: #36A0FF; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+  color: #36a0ff; }
 
 /*:::::FOOTER*/
 .footer__responsive {
   width: 100%;
   background-color: #1a0844; }
+  .footer__responsive .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; }
+    .footer__responsive .grupo-1 .box figure {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .footer__responsive .grupo-1 .box figure img {
+        width: 100px; }
+    .footer__responsive .grupo-1 .box h2 {
+      color: #fff;
+      margin-bottom: 25px;
+      font-size: 20px; }
+    .footer__responsive .grupo-1 .box p {
+      color: #efefef;
+      margin-bottom: 10px; }
+    .footer__responsive .grupo-1 .red-social a {
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: #fff;
+      margin-right: 10px;
+      background-color: #084298;
+      text-align: center;
+      transition: all 300ms ease; }
+      .footer__responsive .grupo-1 .red-social a:hover {
+        transform: scale(1.2, 1.2);
+        transition: 1s;
+        color: aqua; }
+  .footer__responsive .grupo-2 {
+    background-color: #3a298a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff; }
+    .footer__responsive .grupo-2 small {
+      font-size: 15px; }
 
-.footer__responsive .grupo-1 {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
-  padding: 45px 0px; }
+.detalle_producto .precio {
+  text-align: left;
+  color: #363f96;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 5px; }
 
-.footer__responsive .grupo-1 .box figure {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.footer__responsive .grupo-1 .box figure img {
-  width: 100px; }
-
-.footer__responsive .grupo-1 .box h2 {
-  color: #fff;
-  margin-bottom: 25px;
-  font-size: 20px; }
-
-.footer__responsive .grupo-1 .box p {
-  color: #efefef;
-  margin-bottom: 10px; }
-
-.footer__responsive .grupo-1 .red-social a {
-  display: inline-block;
-  text-decoration: none;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  color: #fff;
-  margin-right: 10px;
-  background-color: #084298;
+.shop_title {
   text-align: center;
-  transition: all 300ms ease; }
+  margin: 20px 0;
+  font-weight: bold; }
 
-.footer__responsive .grupo-1 .red-social a:hover {
-  color: aqua; }
+.jc-center {
+  justify-content: center; }
 
-.footer__responsive .grupo-2 {
-  background-color: #3a298a;
-  padding: 15px 10px;
-  text-align: center;
+label {
+  font-weight: bold;
+  color: #363f96;
+  margin-top: 1em;
+  margin-bottom: 5px; }
+
+.mb-50 {
+  margin-bottom: 50px; }
+
+.contact-btn {
+  border: none;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 1em;
+  padding: 1em 2em;
+  margin-top: 2em; }
+
+.contact-title {
+  margin-bottom: 1em; }
+
+.contact-subtitle {
+  margin-bottom: 0; }
+
+.bg-purple {
+  background-color: #6c27b3; }
+
+.bg-gray {
+  background-color: #e7e7e7; }
+
+small {
+  font-style: italic;
+  color: #747474;
+  font-weight: bold; }
+
+.grupo-2 small {
   color: #fff; }
 
-.footer__responsive .grupo-2 small {
-  font-size: 15px; }
+.color-red {
+  color: #ff4848; }
+
+.text-purple {
+  color: #1a0844; }
+
+.img-lastOfUs {
+  background-image: url("../media/tienda/The-last-of-us-2.png"); }
+
+.img-residentEvil {
+  background-image: url("../media/tienda/Resident-Evil-Village-PS4.jpg"); }
+
+.img-hitman {
+  background-image: url("../media/tienda/hitman-3.jpg"); }
+
+.img-godOfWar {
+  background-image: url("../media/tienda/God-of-War.png"); }
+
+.img-deathStranding {
+  background-image: url("../media/tienda/death-stranding-ps4.jpg"); }
+
+.img-spiderman {
+  background-image: url("../media/tienda/Spiderman-Miles-Morales.jpg"); }
+
+.img-horizon {
+  background-image: url("../media/tienda/horizon-zero-dawn.jpg"); }
+
+.img-metalGearSolid {
+  background-image: url("../media/tienda/metal-gear-solid-V.jpg"); }
+
+.img-justDance {
+  background-image: url("../media/tienda/just-dance.jpg"); }
+
+.img-container {
+  overflow: hidden;
+  cursor: pointer;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform .3s ease; }
+
+.img-container:hover {
+  transform: scale(1.05); }
 
 @media screen and (max-width: 800px) {
   .footer__responsivea .grupo-1 {
@@ -95,3 +179,19 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px; } }
+
+@media screen and (max-width: 1200px) {
+  .img-container {
+    height: 270px; } }
+
+@media screen and (max-width: 992px) {
+  .img-container {
+    height: 195px; } }
+
+@media screen and (max-width: 768px) {
+  .img-container {
+    height: 307px; } }
+
+@media screen and (max-width: 576px) {
+  .img-container {
+    height: 682px; } }
