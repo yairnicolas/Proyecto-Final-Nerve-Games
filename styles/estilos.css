@@ -77,6 +77,9 @@
     .footer__responsive .grupo-2 small {
       font-size: 15px; }
 
+.detalle_producto {
+  overflow: hidden; }
+
 .detalle_producto .precio {
   text-align: left;
   color: #363f96;
