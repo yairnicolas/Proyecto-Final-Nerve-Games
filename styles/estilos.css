@@ -101,6 +101,9 @@ label {
 .mb-50 {
   margin-bottom: 50px; }
 
+.mt-50 {
+  margin-top: 50px; }
+
 .contact-btn {
   border: none;
   font-family: 'Roboto';
@@ -172,6 +175,19 @@ small {
 
 .img-container:hover {
   transform: scale(1.05); }
+
+.profile {
+  display: flex;
+  align-items: center; }
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("../media/perfil/gamer.jpg");
+    background-size: cover;
+    background-position: center; }
+  .profile-info {
+    margin-left: 25px; }
 
 @media screen and (max-width: 800px) {
   .footer__responsivea .grupo-1 {
